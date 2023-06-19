@@ -1,0 +1,20 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+*, .text-secondary {
+    color: rgb(49, 38, 97);
+}
+
+.navbar-nav li {
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.text-outline {
+    -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
+    -webkit-text-stroke-color: #fff!important;
+    color: transparent;
+}
+  
