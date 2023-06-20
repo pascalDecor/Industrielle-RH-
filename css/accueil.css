@@ -8,24 +8,27 @@
 .banner{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(4, 1, 46, 0.562));
     position : relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+    
 }
 
 .banner, .banner > .container{
-    min-height: 100vh;
+    height: 100vh;
 }
  .banner > .container{
     height: 100%;
 }
 
 .banner > .container  h1.presentation{
-    margin-top: -100px;
+    /* margin-top: -100px; */
     font-size: 100px;
     font-weight: 1000;
     color: #fff;
     text-decoration: wavy;
 
 }
+
+
 
 .banner > .container  p.presentation{
     font-size: 34px;
@@ -42,7 +45,7 @@
 }
 
 #video-background {
-    position: fixed;
+    position: absolute;
     top: 100px;
     left: 0;
     width: 100%;
@@ -58,6 +61,31 @@
     width: max-content;
   }
 
+  .icone-employe-div{
+    border-radius: 500px;
+    padding: 30px;
+    width: max-content;
+    background-color: rgba(49, 38, 97, 0.281);
+  }
+
+  .carousel-control-prev {
+    left: -20%;
+  }
+  .carousel-control-next {
+    right: -20%;
+  }
+
+
+  .card-abonnees{
+    
+    left : 50%;
+    
+    transform: translate(-10%,-40%);
+    min-width: 400px;
+    text-align: center;
+    
+  }
+
 
   /*=========================================== Animations ===================================== */
 
@@ -66,13 +94,12 @@
     overflow: hidden;
     white-space: nowrap;
     animation: marquee-animation 10s linear infinite;
-    /*  */
     position: absolute;
-    bottom: 50px;
+    bottom: -70px;
     left: 0;
     padding: 0;
     margin: 0;
-   
+    z-index: 10;
   }
   
   @keyframes marquee-animation {
