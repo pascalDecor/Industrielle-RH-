@@ -79,12 +79,27 @@
   .card-abonnees{
     
     left : 50%;
-    
+    z-index: 10;
     transform: translate(-10%,-40%);
     min-width: 400px;
     text-align: center;
     
   }
+
+  .cosmos-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('/assets/images/canvas-linear.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+
+  
+  
 
 
   /*=========================================== Animations ===================================== */
@@ -114,4 +129,69 @@
   /* .marquee:hover {
     animation-play-state: paused;
   } */
+  
+
+  /*  */
+
+  .image-scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .image-scroll-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    animation: image-scroll-animation 10s linear infinite;
+  }
+  
+  @keyframes image-scroll-animation {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+  .image-scroll-wrapper img {
+    /* width: 100%;     */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+    /*  */
+
+    .image-scroll-container-y {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    .image-scroll-wrapper-y {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      animation: image-scroll-animation-y 10s linear infinite;
+    }
+    
+    @keyframes image-scroll-animation-y {
+      0% {
+        transform: translateX(-200%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+    
+    .image-scroll-wrapper-y img {
+      /* width: 100%;     */
+      height: 100%;
+      object-fit: cover;
+    }
+    
+  
   

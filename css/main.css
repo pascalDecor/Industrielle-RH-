@@ -6,6 +6,10 @@
     color: rgb(49, 38, 97);
 }
 
+.bg-blue-app{
+    background-color: rgb(49, 38, 97);
+}
+
 .navbar-nav li {
     font-size: 17px;
     margin-left: 10px;
