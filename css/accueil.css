@@ -95,14 +95,14 @@
   top: 0;
   left: 0;
   /* width: 100%; */
-  background-image: url('/assets/images/canavas-linear-yellow.png');
+  background-image: url('../assets/images/canavas-linear-yellow.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bg-footer
 {
-  background-image: url('/assets/images/canvas-linear-footer.png');
+  background-image: url('../assets/images/canvas-linear-footer.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -113,7 +113,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url('/assets/images/canvas-linear-footer.png');
+  background-image: url('../assets/images/canvas-linear-footer.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
