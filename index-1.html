@@ -30,8 +30,60 @@
 
 <body>
     <div id="loader">
-        <div class="text-center">
-            <img src="./assets/images/logo-white.png" alt="" class="mx-auto ms-5" srcset="">
+     
+        <div class="text-center" style="position: relative;">
+            <!--  -->
+            <div style="top: -40vh;right: -40vw;position: absolute;">
+                <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" style="width: 500px;">
+                    <defs>
+                        <clipPath id="b">
+                            <path fill="currentColor"
+                                d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                        </clipPath>
+                        <filter id="a" x="-50vw" y="-50vh" width="100vw" height="100vh">
+                            <feFlood flood-color="#fff" result="neutral-gray" />
+                            <feTurbulence type="fractalNoise" baseFrequency="2.5" numOctaves="100" stitchTiles="stitch"
+                                result="noise" />
+                            <feColorMatrix in="noise" type="saturate" values="0" result="destaturatedNoise" />
+                            <feComponentTransfer in="desaturatedNoise" result="theNoise">
+                                <feFuncA type="table" tableValues="0 0 0.3 0" />
+                            </feComponentTransfer>
+                            <feBlend in="SourceGraphic" in2="theNoise" mode="soft-light" result="noisy-image" />
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" clip-path="url(#b)">
+                        <path fill="#fdecaa"
+                            d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                    </g>
+                </svg>
+            </div>
+            <!--  -->
+            <div style="bottom: -50vh;left: -40vw;position: absolute;">
+                <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" style="width: 500px;">
+                    <defs>
+                        <clipPath id="b">
+                            <path fill="currentColor"
+                                d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                        </clipPath>
+                        <filter id="a" x="-50vw" y="-50vh" width="100vw" height="100vh">
+                            <feFlood flood-color="#fff" result="neutral-gray" />
+                            <feTurbulence type="fractalNoise" baseFrequency="2.5" numOctaves="100" stitchTiles="stitch"
+                                result="noise" />
+                            <feColorMatrix in="noise" type="saturate" values="0" result="destaturatedNoise" />
+                            <feComponentTransfer in="desaturatedNoise" result="theNoise">
+                                <feFuncA type="table" tableValues="0 0 0.3 0" />
+                            </feComponentTransfer>
+                            <feBlend in="SourceGraphic" in2="theNoise" mode="soft-light" result="noisy-image" />
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" clip-path="url(#b)">
+                        <path fill="#fdecaa"
+                            d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                    </g>
+                </svg>
+            </div>
+            <!--  -->
+            <img src="./assets/images/logo-white.png" alt="" class="mx-auto" srcset="">
             <div class="h-logo d-block mt-3">
                 <div class="font-size-5 text-center">
                     Industrielle RH
@@ -114,6 +166,9 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fw-5 shadow btn btn-warning px-4 py-2" href="./about.html">Recruter des talents</a>
                     </li>
                     <!-- Icon serach -->
                     <li class="nav-item py-2 ms-3" type="button">
