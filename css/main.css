@@ -11,8 +11,16 @@
     color: #e0a500
 }
 
+.bg-yellow {
+    background-color: #e0a500
+}
+
 .bg-blue-app {
     background-color: rgb(49, 38, 97);
+}
+
+.bg-blue-app-light {
+    background-color: rgb(219, 214, 241);
 }
 
 .navbar-nav li {
@@ -24,6 +32,17 @@
 .text-outline {
     -webkit-text-stroke-width: calc(2px + 0 * ((100vw - 320px) / 1120));
     -webkit-text-stroke-color: #fff !important;
+    color: transparent;
+}
+
+.text-outline-blue {
+    -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
+    -webkit-text-stroke-color: rgb(49, 38, 97) !important;
+    color: transparent;
+}
+.text-outline-yellow {
+    -webkit-text-stroke-width: calc(1px + 0 * ((100vw - 320px) / 1120));
+    -webkit-text-stroke-color: #e0a500 !important;
     color: transparent;
 }
 
