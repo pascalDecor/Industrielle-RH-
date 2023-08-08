@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Industrielle RH</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/accueil.css">
+        <!-- Partie des CDN CSS -->
+
+        <!-- Partie des CDN CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+        <!-- Partie des CDN CSS -->
+
+    </head>
+    <body>
+        <header>
+            <div id="loader">
+
+                <div class="text-center" style="position: relative;">
+                    <!--  -->
+                    <div style="top: -40vh;right: -40vw;position: absolute;">
+                        <svg viewBox="0 0 1000 1000"
+                            xmlns="http://www.w3.org/2000/svg"
+                            style="width: 500px;">
+                            <defs>
+                                <clippath id="b">
+                                    <path fill="currentColor"
+                                        d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                                </clippath>
+                                <filter id="a" x="-50vw" y="-50vh" width="100vw"
+                                    height="100vh">
+                                    <feflood flood-color="#fff"
+                                        result="neutral-gray" />
+                                    <feturbulence type="fractalNoise"
+                                        baseFrequency="2.5" numOctaves="100"
+                                        stitchTiles="stitch"
+                                        result="noise" />
+                                    <fecolormatrix in="noise" type="saturate"
+                                        values="0" result="destaturatedNoise" />
+                                    <fecomponenttransfer in="desaturatedNoise"
+                                        result="theNoise">
+                                        <fefunca type="table"
+                                            tableValues="0 0 0.3 0" />
+                                    </fecomponenttransfer>
+                                    <feblend in="SourceGraphic" in2="theNoise"
+                                        mode="soft-light" result="noisy-image" />
+                                </filter>
+                            </defs>
+                            <g filter="url(#a)" clip-path="url(#b)">
+                                <path fill="#fdecaa"
+                                    d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!--  -->
+                    <div style="bottom: -50vh;left: -40vw;position: absolute;">
+                        <svg viewBox="0 0 1000 1000"
+                            xmlns="http://www.w3.org/2000/svg"
+                            style="width: 500px;">
+                            <defs>
+                                <clippath id="b">
+                                    <path fill="currentColor"
+                                        d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                                </clippath>
+                                <filter id="a" x="-50vw" y="-50vh" width="100vw"
+                                    height="100vh">
+                                    <feflood flood-color="#fff"
+                                        result="neutral-gray" />
+                                    <feturbulence type="fractalNoise"
+                                        baseFrequency="2.5" numOctaves="100"
+                                        stitchTiles="stitch"
+                                        result="noise" />
+                                    <fecolormatrix in="noise" type="saturate"
+                                        values="0" result="destaturatedNoise" />
+                                    <fecomponenttransfer in="desaturatedNoise"
+                                        result="theNoise">
+                                        <fefunca type="table"
+                                            tableValues="0 0 0.3 0" />
+                                    </fecomponenttransfer>
+                                    <feblend in="SourceGraphic" in2="theNoise"
+                                        mode="soft-light" result="noisy-image" />
+                                </filter>
+                            </defs>
+                            <g filter="url(#a)" clip-path="url(#b)">
+                                <path fill="#fdecaa"
+                                    d="M868.5 621.5Q835 743 735 828.5t-223 50Q389 843 299 777T105.5 605.5Q2 500 60.5 361.5T253 188q134-35 258-69.5t255 29q131 63.5 133.5 208t-31 266Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!--  -->
+                    <img src="./assets/images/logo-white.png" alt
+                        class="mx-auto"
+                        srcset>
+                    <div class="h-logo d-block mt-3">
+                        <div class="font-size-5 text-center">
+                            Industrielle RH
+                            <span
+                                class="d-block font-size-3 fw-4 text-uppercase"
+                                style="margin-top: -5px;">
+                                recrutement international Quebéc
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Nav Bar -->
+            <nav
+                class="navbar navbar-expand-lg py-4 bg-blue-app container-fluid mx-0 px-5 fixed-top">
+                <div
+                    class="container-fluid px-5 mx-0 d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand h-logo" href="./index.html">
+                        <div class="d-flex align-items-center">
+                            <!-- <img src="./assets/images/logo-white.png" width="50"
+                                class="me-2" alt srcset> -->
+                            <div class="text-light">
+                                Industrielle RH
+                                <span
+                                    class="d-block font-size-1 fw-4 text-uppercase text-light"
+                                    style="margin-top: -5px;">
+                                    recrutement international Quebéc
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class=" " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page"
+                                    href="./index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pourquoi IR?
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="./about.html">Qui sommes nous?</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Ecosystème</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Solutions
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="./candidats_disponibles.html">Recrutement
+                                            international</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Services
+                                            juridiques</a></li>
+                                    <li><a class="dropdown-item" href="#">Evaluation</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Entreprise
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="./candidats_disponibles.html">Candidatures
+                                            disponibles</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Le
+                                            Burkina Faso</a></li>
+                                    <li><a class="dropdown-item" href="#">Poster
+                                            une offre</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Candidats
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Candidatures/a></li>
+                                        <li><a class="dropdown-item" href="#">Vivre
+                                                au Québec</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#"
+                                        role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Nos métiers
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Administratifs</a></li>
+                                        <li><a class="dropdown-item" href="#">Opérations</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page"
+                                        href="./index.html">Contactez-nous</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a
+                                        class="fw-5 shadow btn btn-warning px-4 py-2"
+                                        href="./about.html">Recruter des talents</a>
+                                </li>
+                                <!-- Icon serach -->
+                                <!-- <li class="nav-item py-2 ms-3" type="button">
+                                <svg viewBox="0 0 24 24" width="20" height="20"
+                                    stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round" class="css-i6dzq1"
+                                    Tiney="true">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                            </li> -->
+                                <!-- FIn Icon serach -->
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+                <!-- Fin Nav Bar -->
+                <!-- Main -->
+            </header>
+
+            <main>
+                <section>
+                    <div style="height: 100vh;width: 100vw;"
+                        class=" bg-blue-app d-flex justify-content-center align-items-center">
+                        <div
+                            class="row justify-content-center align-items-center w-100 h-100">
+                            <div class="col-6 text-white p-5">
+                                <div class="p-5 ms-5">
+                                    <h2 class="font-size-5 fw-8 text-white"
+                                        data-aos="fade-up" data-aos-delay="600">
+                                        La mission de notre entreprise et notre
+                                        expertise dans le recrutement de
+                                        travailleurs.
+                                    </h2>
+                                    <p class="text-white mt-4"
+                                        data-aos="fade-up" data-aos-delay="800">
+                                        La mission de notre entreprise et notre
+                                        expertise dans le recrutement de
+                                        travailleurs étrangers francophones pour
+                                        les
+                                        manufactures québécoises.
+                                    </p>
+                                    <a href
+                                        class="btn btn-white bg-white px-5 py-2 rounded-5 fw-6 mt-5"
+                                        data-aos="fade-up" data-aos-delay="1000">En
+                                        savoir plus</a>
+                                </div>
+                            </div>
+                            <div class="col-6 position-relative "
+                                style="height: 100vh;">
+                                <video autoplay muted loop id="video-background"
+                                    style="z-index: 2;top:0;height: 90%;">
+                                    <source src="assets/videos/banner-01.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="h-100 w-100 bg-blue-app p-5"
+                                    style="z-index: 3;top:0;left:0;opacity: 0.1;position:absolute">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class=" py-5">
+                    <div
+                        class="row  container mx-auto">
+                        <div class="col-6 my-auto py-5"
+                            style="height: 100vh;">
+                            <img class="img-fluid"
+                                src="./assets/images/sectionbannerCustom1.png"
+                                alt>
+                        </div>
+                        <div class="col-6 mt-5 py-5 h-100">
+                            <h1 class="font-size-5 fw-8" data-aos="fade-up"
+                                data-aos-delay="400">
+                                Cout éléve de pertubation de la chaine
+                            </h1>
+                            <p class="text-blue mt-4" data-aos="fade-up"
+                                data-aos-delay="600">
+                                Cette section aura pour objectif d'influencer
+                                à la fois les entreprises clientes et les
+                                potentiels travailleurs étrangers. L'idée
+                                est de rappeler à l'entreprise l'urgence de
+                                la pénurie de main-d'œuvre, tandis que pour
+                                les travailleurs étrangers, il s'agit de
+                                leur montrer les opportunités qui s'offrent
+                                à eux.
+                            </p>
+                            <div class="d-flex mt-5">
+                                <div class="text-center me-5">
+                                    <div
+                                        class=" text-secondary px-4 py-3 d-flex justify-content-center align-items-center"
+                                        style="border:2px solid rgb(255, 94, 0);border-radius: 1000px;aspect-ratio:1;height:83px"
+                                        data-aos="fade-up" data-aos-delay="1000">
+                                        <svg viewBox="0 0 24 24" width="24"
+                                            height="24" stroke="currentColor"
+                                            stroke-width="2" fill="none"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="css-i6dzq1"><line x1="12"
+                                                y1="1"
+                                                x2="12" y2="23"></line><path
+                                                d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+
+                                    </div>
+                                    <h1 class="font-size-4 fw-6 mt-2"
+                                        data-aos="fade-up"
+                                        data-aos-delay="1200">
+                                        184
+                                    </h1>
+                                </div>
+                                <!--  -->
+
+                                <div class="text-center mx-5">
+                                    <div
+                                        class=" text-secondary px-4 py-3 d-flex justify-content-center align-items-center"
+                                        style="border:2px solid rgb(255, 94, 0);border-radius: 1000px;aspect-ratio:1;height:83px"
+                                        data-aos="fade-up" data-aos-delay="1000">
+                                        <svg viewBox="0 0 24 24" width="24"
+                                            height="24" stroke="currentColor"
+                                            stroke-width="2" fill="none"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="css-i6dzq1"><path
+                                                d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle
+                                                cx="12" cy="12" r="3"></circle></svg>
+
+                                    </div>
+                                    <h1 class="font-size-4 fw-6 mt-2"
+                                        data-aos="fade-up"
+                                        data-aos-delay="1200">
+                                        88 %
+                                    </h1>
+                                </div>
+                                <!--  -->
+
+                                <div class="text-center ms-5">
+                                    <div
+                                        class=" text-secondary px-4 py-3 d-flex justify-content-center align-items-center"
+                                        style="border:2px solid rgb(255, 94, 0);border-radius: 1000px;aspect-ratio:1;height:83px"
+                                        data-aos="fade-up" data-aos-delay="1000">
+                                        <svg viewBox="0 0 24 24" width="24"
+                                            height="24" stroke="currentColor"
+                                            stroke-width="2" fill="none"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="css-i6dzq1"><path
+                                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+
+                                    </div>
+                                    <h1 class="font-size-4 fw-6 mt-2"
+                                        data-aos="fade-up"
+                                        data-aos-delay="1200">
+                                        74 %
+                                    </h1>
+                                </div>
+                            </div>
+                            <a href
+                                class="btn text-white bg-blue-app  px-5 py-2 rounded-5 fw-6 mt-5"
+                                data-aos="fade-up" data-aos-delay="1000">En
+                                savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Partie des CDN JS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+            integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+        <script src="/js/accueil.js"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+        <script>
+    // Also can pass in optional settings block
+    var rellax = new Rellax('.rellax', {
+      speed: -2,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+  </script>
+        <script>
+    AOS.init();
+    gsap.to("#loader img", { rotation: 360, duration: 2, ease: "bounce.out" });
+    $(document).ready(function () {
+        $('#loader').hide();
+        // Masque la page jusqu'à ce qu'elle soit complètement chargée
+    });
+
+</script>
+    </body>
+</html>
+
+<style>
+    .nav-link{
+  color : #fff
+}
+
+.nav-link.active{
+  color : #e0a500 !important
+}
+</style>
